@@ -31,6 +31,7 @@ class MainActivity : AppCompatActivity() {
                     "pAge" to pAge
                 )
 
+                // TODO add in firebase
                 db.collection("Person")
                     .add(person)
                     .addOnSuccessListener { documentReference ->
