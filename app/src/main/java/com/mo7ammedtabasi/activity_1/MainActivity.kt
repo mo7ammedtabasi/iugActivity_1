@@ -32,6 +32,7 @@ class MainActivity : AppCompatActivity() {
                 )
 
                 // TODO add in firebase
+                // create new branch
                 db.collection("Person")
                     .add(person)
                     .addOnSuccessListener { documentReference ->
